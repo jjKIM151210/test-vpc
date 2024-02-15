@@ -1,5 +1,5 @@
 module "vpc" {
-  source  = "app.terraform.io/dev_org/vpc/aws"
+  source  = "app.terraform.io/dev_org/network/aws"
   version = "1.0.0"
 
   name = "jj-vpc"
